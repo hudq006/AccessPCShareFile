@@ -4,7 +4,7 @@ android {
     compileSdkVersion 21
     buildToolsVersion '21.1.2'
     defaultConfig {
-        applicationId "com.hudq.demo.visitor"
+        applicationId "com.hudq006.demo.visitor"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1
