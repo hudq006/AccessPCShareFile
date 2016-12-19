@@ -6,4 +6,3 @@ jcifs是samba组织下的一帮牛开发的一套兼容SMB协议的library，我
 通过该jar里的方法能够获取局域网内的windowsPC的名称、共享文件夹和文件;
 手机和苹果的设备不能获取，因为该类使用的是IBM早期的NETBIOS协议，无法读取现有设备上的数值。
 
-haha
