@@ -143,6 +143,7 @@ public class MainActivity extends Activity {
         String username = sUserName;
         String password = sPassword;
         try {
+            //此处只是用来连接pc，查询是否成功。
             //用户名和密码鉴权,使用此种方法校验name和password，避免password出现特殊字符导致错误
             UniAddress domain = UniAddress.getByName(ip);
             SmbSession.logon(domain, new NtlmPasswordAuthentication(ip, username, password));
